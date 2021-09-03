@@ -30,7 +30,7 @@ token_t get_token( char *cadena ){
             } 
         }
 
-        if ( token == NINGUNO ) {
+        if ( token == NINGUNO ) {   /* estado inicial de la funcion  */
 
             if ( isspace(caracter) ) {
                 token = NINGUNO;
