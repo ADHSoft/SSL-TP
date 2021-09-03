@@ -27,6 +27,7 @@ int main (void) {
                 printf("Token Desconocido:");
                 break;
         }
+        printf("\n");
         
     } while ( token != FDT );
     
